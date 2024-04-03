@@ -1,0 +1,32 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero-section {
+    display: flex;
+    height: 446px;
+    width: auto;
+    background: url("../images/header-background.png");
+    flex-direction: column;
+    justify-content: start;
+}
+
+.logo {
+    height: 386px;
+    width: 458px;
+}
+
+.main-header {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60.95px;
+    color: #DC56C5;
+    text-align: center;
+}
+
+.search-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
